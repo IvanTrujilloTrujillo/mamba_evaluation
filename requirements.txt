@@ -1,0 +1,9 @@
+# Python 3.10 y CUDA 11.7
+torch==2.0.1+cu117
+# Si torch no reconoce cuda (torch.cuda.is_available() == False), instalar con los siguientes dos comandos
+# pip install torch torchvision --pre -f https://download.pytorch.org/whl/nightly/cu121/torch_nightly.html
+# pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+packaging==24.0
+wheel==0.43.0
+https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl  # pip install https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl (triton)
+mamba-ssm
