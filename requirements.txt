@@ -11,3 +11,9 @@ triton==2.3.0
 # https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl  # pip install https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl (triton)
 mamba-ssm==1.2.0.post1
 scikit-learn==1.4.2
+pandas==2.2.2
+yt-dlp==2024.4.9
+librosa==0.10.2
+resampy==0.4.3
+torchaudio==0.13.0
+pytorch_lightning==2.2.4
