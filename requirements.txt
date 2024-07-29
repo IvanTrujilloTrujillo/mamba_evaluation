@@ -19,3 +19,5 @@ torchaudio==0.13.0
 pytorch_lightning==2.2.4
 transformers==4.40.2
 datasets==2.19.1
+evaluate==0.4.2
+openai==1.37.0
