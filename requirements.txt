@@ -10,6 +10,7 @@ triton==2.3.0
 # Si no encuentra triton, se puede encontrar para Windows en:
 # https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl  # pip install https://huggingface.co/r4ziel/xformers_pre_built/resolve/main/triton-2.0.0-cp310-cp310-win_amd64.whl (triton)
 mamba-ssm==1.2.0.post1
+causal-conv1d>=1.4.0
 scikit-learn==1.4.2
 pandas==2.2.2
 yt-dlp==2024.4.9
